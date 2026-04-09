@@ -1,4 +1,36 @@
-// console
+/*
 
-console.log();
+OPERADORES DE COMPARAÇÃO
 
+> MAIOR QUE
+>= MAIOR QUE OU IGUAL A QUE
+
+< MENOR QUE
+<= MENOR QUE OU IGUAL QUE 
+
+== IGUALDADE (VALOR)
+=== IGUALDADE ESTRITA (VALOR E TIPO )
+
+!= DIFERNTE  (VALOR)
+!== DIFERENTE (VALOR E TIPO )
+
+*/
+
+/*
+
+OPERADORES LOGICOS
+
+&& -> AND/E
+|| -> OR/OU
+! -> NOT/NAO
+
+*/
+
+/* SHORT - CIRCUIT 
+
+&& -> FALSE && TRUE -> FALSE "VALOR MESMO"
+|| -> TRUE && FALSE -> VERDADE
+
+*/
+
+ 
