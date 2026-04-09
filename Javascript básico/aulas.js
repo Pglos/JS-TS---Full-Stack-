@@ -37,7 +37,7 @@ OPERADORES LOGICOS
 //-------------------------------------------------------
  
 
-/* IF - ELSE IF - ELSE */ 
+/* IF - ELSE IF - ELSE  
 
  const hora = 10; 
 
@@ -50,3 +50,5 @@ OPERADORES LOGICOS
  }else{
     console.log("Esse horario nao esxiste");
  }
+ 
+*/
