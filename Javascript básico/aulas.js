@@ -16,6 +16,7 @@ OPERADORES DE COMPARAÇÃO
 
 */
 
+//-----------------------------------------------------
 /*
 
 OPERADORES LOGICOS
@@ -25,7 +26,7 @@ OPERADORES LOGICOS
 ! -> NOT/NAO
 
 */
-
+//-------------------------------------------------------
 /* SHORT - CIRCUIT 
 
 && -> FALSE && TRUE -> FALSE "VALOR MESMO"
@@ -33,4 +34,19 @@ OPERADORES LOGICOS
 
 */
 
+//-------------------------------------------------------
  
+
+/* IF - ELSE IF - ELSE */ 
+
+ const hora = 10; 
+
+ if(hora >= 0 && hora <= 11){
+    console.log('Bom dia');
+ }else if (hora >= 12 && hora <= 17 ){
+    console.log('Boa Tarde');
+ }else if (hora >= 18 && hora <= 23){
+    console.log('Boa Noite');
+ }else{
+    console.log("Esse horario nao esxiste");
+ }
