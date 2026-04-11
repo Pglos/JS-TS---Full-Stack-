@@ -73,7 +73,10 @@ const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuario vip' : 'Usuario Normal'
 */
 
 
-/* OBJETO DATE*/ 
+/* OBJETO DATE 
 
 const data = new Date(); //a,m,d,h,min,seg,miseg // funcão construtora 
 console.log(data.toString());
+*/
+
+
