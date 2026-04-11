@@ -52,3 +52,28 @@ OPERADORES LOGICOS
  }
  
 */
+
+
+/* OPERADOR TERNARIO 
+
+-> (condicão) ? 'Valor verdadeiro : 'Valor falso;
+
+// ex normal 
+const pontuacaoUsuario = 1000:
+
+if (pontuacaoUsuario >= 1000){
+   console.log('Usuario VIP');
+} else{
+   console.log('Usuario normal');
+}
+
+// ex Ternario 
+
+const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuario vip' : 'Usuario Normal';
+*/
+
+
+/* OBJETO DATE*/ 
+
+const data = new Date(); //a,m,d,h,min,seg,miseg // funcão construtora 
+console.log(data.toString());
