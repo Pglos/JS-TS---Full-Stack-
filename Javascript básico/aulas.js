@@ -54,7 +54,7 @@ OPERADORES LOGICOS
 */
 
 
-/* OPERADOR TERNARIO 
+/* OPERADOR TERNARIO --------------------------
 
 -> (condicão) ? 'Valor verdadeiro : 'Valor falso;
 
@@ -73,10 +73,74 @@ const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuario vip' : 'Usuario Normal'
 */
 
 
-/* OBJETO DATE 
+/* OBJETO DATE -------------------------
 
 const data = new Date(); //a,m,d,h,min,seg,miseg // funcão construtora 
 console.log(data.toString());
 */
+
+
+/*Switch/case-------------------------- 
+
+function getDiaSemanaTexto(diaSemana){
+   let diaSemanaTexto;
+
+   switch(diaSemana){
+   case 0:
+      diaSemanaTexto = 'Domingo';
+      return diaSemanaTexto;
+
+      case 1:
+      diaSemanaTexto = 'Segunda';
+      return diaSemanaTexto;
+
+      case 2:
+      diaSemanaTexto = 'Terca';
+     return diaSemanaTexto;
+
+      case 3:
+      diaSemanaTexto = 'Quarta';
+      return diaSemanaTexto;
+
+      case 4:
+      diaSemanaTexto = 'Quinta';
+      return diaSemanaTexto;
+
+      case 5:
+      diaSemanaTexto = 'Sexta';
+      return diaSemanaTexto;
+
+      case 6:
+      diaSemanaTexto = 'Sabado';
+      return diaSemanaTexto;
+
+      default:
+         diaSemanaTexto = '';
+         return diaSemanaTexto;
+}
+const data = new Date('1987-04-21 00:00:00');
+let diaSemana = data.getDay();
+const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
+
+console.log(diaSemana, diaSemanaTexto);
+*/
+
+// Atribuição via desestruturação (Arrays)
+
+/*let a ="A";
+let b = 'B';
+let c = 'C';
+
+const letras =  [b,c,a];
+[a,b,c] = letras;
+
+console.log(a,b,c);*/
+
+const numero = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//const [ primeiroNumero , segundoNumero,... resto] = numero
+//const [um, , tres , , cinco, , sete] = numero 
+//console.log(primeiroNumero , segundoNumero);
+//console.log(resto);
+//console.log(um ,tres, cinco);
 
 
